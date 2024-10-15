@@ -1,0 +1,10 @@
+#install packages in terminal
+
+npm i inquirer
+npm i qr-image
+npm i fs
+
+#changes in package.json 
+
+add after "main" : "index.js", ==> 
+"type" : "module",
